@@ -1,4 +1,4 @@
-[![GoDoc](http://godoc.org/github.com/robfig/cron?status.png)](http://godoc.org/github.com/robfig/cron)
+[![GoDoc](http://godoc.org/github.com/icarephone/cron?status.png)](http://godoc.org/github.com/icarephone/cron)
 [![Build Status](https://travis-ci.org/robfig/cron.svg?branch=master)](https://travis-ci.org/robfig/cron)
 
 # cron
@@ -7,16 +7,16 @@ Cron V3 has been released!
 
 To download the specific tagged release, run:
 
-	go get github.com/robfig/cron/v3@v3.0.0
+	go get github.com/icarephone/cron/v3@v3.0.0
 
 Import it in your program as:
 
-	import "github.com/robfig/cron/v3"
+	import "github.com/icarephone/cron/v3"
 
 It requires Go 1.11 or later due to usage of Go Modules.
 
 Refer to the documentation here:
-http://godoc.org/github.com/robfig/cron
+http://godoc.org/github.com/icarephone/cron
 
 The rest of this document describes the the advances in v3 and a list of
 breaking changes for users that wish to upgrade from an earlier version.
@@ -33,7 +33,7 @@ the timezone support, and fixes a number of bugs.
 New features:
 
 - Support for Go modules. Callers must now import this library as
-  `github.com/robfig/cron/v3`, instead of `gopkg.in/...`
+  `github.com/icarephone/cron/v3`, instead of `gopkg.in/...`
 
 - Fixed bugs:
   - 0f01e6b parser: fix combining of Dow and Dom (#70)
